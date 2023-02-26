@@ -1,6 +1,6 @@
-package ru.yandex.repinanr.binapp.data.model.response
+package ru.yandex.repinanr.binapp.domain.model
 
-data class BankResponse(
+data class Bank(
     val name: String,
     val url: String,
     val phone: String,

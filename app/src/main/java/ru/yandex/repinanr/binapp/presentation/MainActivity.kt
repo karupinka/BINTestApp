@@ -1,7 +1,7 @@
 package ru.yandex.repinanr.binapp.presentation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import ru.yandex.repinanr.binapp.R
 
 class MainActivity : AppCompatActivity() {

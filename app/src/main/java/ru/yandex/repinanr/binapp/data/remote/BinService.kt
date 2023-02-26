@@ -6,6 +6,6 @@ import ru.yandex.repinanr.binapp.data.model.response.BinInfoResponse
 
 interface BinService {
 
-    @GET("{id}")
-    suspend fun getBinInfo(@Path("id") id: String): BinInfoResponse
+    @GET("{bin}")
+    suspend fun getBinInfo(@Path("bin") bin: String): BinInfoResponse
 }

@@ -10,7 +10,8 @@ import ru.yandex.repinanr.binapp.data.model.entity.BinHistoryEntity
     entities = [
         BinHistoryEntity::class
     ],
-    version = 1
+    version = 1,
+    exportSchema = false
 )
 abstract class BinAppDb: RoomDatabase() {
 

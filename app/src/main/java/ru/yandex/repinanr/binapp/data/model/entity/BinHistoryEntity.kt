@@ -8,9 +8,11 @@ import androidx.room.PrimaryKey
     tableName = "bins_history"
 )
 data class BinHistoryEntity(
-    @PrimaryKey
-    val id: Long,
+    @PrimaryKey(autoGenerate = true)
+    val id: Long = 0,
     val bin: String,
-    @ColumnInfo(name = "column_info")
-    val cardType: String
+    @ColumnInfo(name = "card_type")
+    val cardType: String,
+    @ColumnInfo(name = "card_scheme")
+    val cardScheme: String
 )

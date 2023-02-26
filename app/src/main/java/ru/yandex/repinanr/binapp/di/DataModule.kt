@@ -1,7 +1,6 @@
 package ru.yandex.repinanr.binapp.di
 
 import android.app.Application
-import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import ru.yandex.repinanr.binapp.data.local.BinAppDb
