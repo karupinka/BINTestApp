@@ -1,4 +1,4 @@
-package ru.yandex.repinanr.binapp.data.model
+package ru.yandex.repinanr.binapp.data.model.response
 
 data class BinNumberResponse(
     val length: Int,
