@@ -28,4 +28,7 @@ class BinRepositoryImpl @Inject constructor(
         historyDao.addHistoryItem(mapper.mapBinModelToHistoryEntity(binInfo))
     }
 
+    override suspend fun addBinHistoryErrorItem(bin: String) {
+        historyDao.addHistoryItem(mapper.mapBinErrorToHistoryEntity(bin))
+    }
 }

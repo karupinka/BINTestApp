@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">BIN App</string>
+
+    <!-- Tabs -->
+    <string name="info_tab">Инфо</string>
+    <string name="history_tab">История</string>
+
+    <!-- History -->
+    <string name="history_title">История поиска</string>
+    <string name="history_empty">Ничего не найдено</string>
+    <string name="history_clear_all">Очистить все</string>
+    <string name="success_status">успешно</string>
+    <string name="not_found_status">не найдено</string>
+    <string name="toast_remove">Данные удалены</string>
+
+    <!-- Bin info -->
+    <string name="bin_title">BIN</string>
+    <string name="no_info_character">\?</string>
+    <string name="go_to_history">Перейти в историю</string>
+    <string name="search_hint">BIN</string>
+    <string name="search_button">Поиск</string>
+    <string name="card_number_length">Длина</string>
+    <string name="bin_scheme">Схема</string>
+    <string name="bin_type">Тип</string>
+    <string name="bin_luhn">Luhn</string>
+    <string name="bin_prepaid">Prepaid</string>
+    <string name="bin_brand">Бренд</string>
+    <string name="bin_country">Страна</string>
+    <string name="country_latitude">latitude</string>
+    <string name="country_longitude">longitude</string>
+    <string name="bin_bank">Банк</string>
+    <string name="country_format">%s %s</string>
+    <string name="lat_long_format">lat: %s, long: %s</string>
+
+
+    <!-- Errors -->
+    <string name="network_error">Ошибка интернета</string>
+    <string name="not_found_error">Bin не найден или не существует</string>
+    <string name="other_error">Что-то пошло не так</string>
+    <string name="empty_string">Пустая строка</string>
+    <string name="wrong_length_string">Бин должен быть длиной 6 символов</string>
+    <string name="retry_error_button">Повторить</string>
 </resources>

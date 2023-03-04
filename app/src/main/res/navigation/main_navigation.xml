@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/binInfoFragment">
+
+    <fragment
+        android:id="@+id/binInfoFragment"
+        android:name="ru.yandex.repinanr.binapp.presentation.info.BinInfoFragment"
+        android:label="@+string/bin_title">
+        <action
+            android:id="@+id/action_binInfoFragment_to_historyFragment"
+            app:destination="@id/historyFragment"
+            app:popUpTo="@id/binInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="ru.yandex.repinanr.binapp.presentation.history.HistoryFragment"
+        android:label="@+string/history_title"
+        tools:layout="@layout/fragment_history" />
+</navigation>

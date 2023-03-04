@@ -14,7 +14,7 @@ object ApiClient {
     val client = OkHttpClient.Builder()
         .addInterceptor(HttpLoggingInterceptor().apply {
             if (BuildConfig.DEBUG) {
-                level = HttpLoggingInterceptor.Level.BASIC
+                level = HttpLoggingInterceptor.Level.BODY
             }
         })
         .addInterceptor(
@@ -23,7 +23,7 @@ object ApiClient {
                     proceed(
                         request()
                             .newBuilder()
-                            .addHeader("X-Platform", "Android")
+                            .addHeader("Accept-Version", "3")
                             .build()
                     )
                 }

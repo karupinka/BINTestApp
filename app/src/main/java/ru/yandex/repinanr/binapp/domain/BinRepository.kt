@@ -12,4 +12,7 @@ interface BinRepository {
     suspend fun getBinHistory(): List<BinHistoryItem>
 
     suspend fun addBinHistoryItem(binInfo: BinInfo)
+
+    suspend fun addBinHistoryErrorItem(bin: String)
+
 }
